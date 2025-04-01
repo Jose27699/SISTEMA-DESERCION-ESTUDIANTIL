@@ -102,9 +102,9 @@ class CSVUploaderState extends State<CSVUploader> {
             DataTable(
               columnSpacing: 20,
               columns: const [
-                DataColumn(label: Text("ID:")),
-                DataColumn(label: Text("Nombre:")),
-                DataColumn(label: Text("Promedio:")),
+                DataColumn(label: Text("ID")),
+                DataColumn(label: Text("Nombre")),
+                DataColumn(label: Text("Promedio")),
               ],
               rows:
                   data.map((row) {
